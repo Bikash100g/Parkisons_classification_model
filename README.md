@@ -2,6 +2,12 @@
 
 A notebook-based machine-learning project for analyzing movement-sensor data and building models related to Parkinson's disease. The project processes time-series observations, cleans and prepares the data, and experiments with CNN, LSTM, and hybrid CNN-LSTM neural networks.
 
+## Dataset Information
+Source: PhysioNet - Parkinson’s Disease Smartwatch (PADS) Dataset (Link)
+Observations: 5,159 movement task recordings from 469 participants
+Sensors: Accelerometer (X, Y, Z), Gyroscope (X, Y, Z) sampled at 100Hz
+Classes: Parkinson’s Patients (PD), Differential Diagnoses (DD), Healthy Controls (HC)
+
 ## Project workflow
 
 1. Parse raw observation metadata and movement time-series files.
